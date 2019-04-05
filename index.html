@@ -1,1 +1,122 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CvilleFPV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <style>
+        video {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            min-width: 100%; 
+            min-height: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <section class="hero is-fullheight">
+        <video id="header-video" width="100%" autoplay loop muted>
+            <source src="assets/header-video.mp4" type="video/mp4">
+        </video>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title has-text-white is-size-1"
+                data-aos-delay="500"
+                data-aos="zoom-in">CvilleFPV</h1>
+        </div>
+        <!-- <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#merch">Merch</a></li>
+                <li><a href="#follow">Follow</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> -->
+    </div>
+    </section>
+    <section class="section has-background-white"
+        data-aos="fade-left"
+        data-aos-delay="100"
+        data-aos-anchor-placement="bottom-bottom">
+        <div class="container">
+        <h1 class="title">About</h1>
+        <p>Founded in 2015 our goal is to help people connect through the hobby of FPV (first person view) RC. Whether you are into racing drones, photography drones, RC cars, or planes. Whether you are racer, freestyler, cruiser, interested in learning more, or just want to watch. We welcome everyone to come and connect through the excitement of FPV.</p>
+        </div>
+    </section>
+    <section class="section has-background-black has-text-white" 
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-anchor-placement="bottom-bottom">
+        <div class="container">
+            <h1 class="title">Events</h1>
+            <h2 class="subtitle">2019 Racing Season</h2>
+            <ul>
+                <li>May 19th - Castle Hill Cidery Race</li>
+                <li>TBA June or July - FCRCFC Race 1</li>
+                <li>TBA Sept or Oct - FCRCFC Race 2</li>
+                <li>Aug 11th - Pro Re Nata Brewery Race</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section has-background-white"
+        data-aos="fade-left"
+        data-aos-delay="500"
+        data-aos-anchor-placement="bottom-bottom">
+        <div class="container">
+        <h1 class="title">Education</h1>
+        <ul>
+            <li>TBA June - Quad Clinic 1</li>
+            <li>TBA October - Quad Clinic 2</li>
+        </ul>
+        </div>
+    </section>
+    <section class="section has-background-black has-text-white"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-anchor-placement="bottom-bottom">
+        <div class="container">
+            <h1 class="title">Partners</h1>
+            <ul>
+                <li>Fluvanna County Radio Control Flying Club</li>
+                <li>River City Racers</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section has-background-white"
+        data-aos="fade-left"
+        data-aos-delay="500"
+        data-aos-anchor-placement="bottom-bottom">
+        <div class="container">
+        <h1 class="title">Community</h1>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>MultiGP</li>
+        </ul>
+        </div>
+    </section>
+    <section class="section has-background-black has-text-white"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-anchor-placement="bottom-bottom">
+        <div class="container">
+        <h1 class="title">Contact</h1>
+        </div>
+    </section>
+    <script>
+        AOS.init();
+        
+        window.addEventListener("load", function(){
+            var video = document.getElementById("header-video")
+            video.play()
+        })
+    </script>
+  </body>
+</html>
